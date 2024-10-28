@@ -4,4 +4,7 @@
 
 hetk=`date +%d.%m.%Y`
 praegu=`date +%H.%M.%S`
-echo -e "Kuupäev on $hetk\nKell on $praegu."
+viikko=`date +%A`
+echo -e "Täna on $viikko.\nKuupäev on $hetk.\nKell on $praegu."
+kalender=`cal | tail -n 8`
+echo -e "USA-s näeb kalendrikuu välja selline:\n$kalender"
