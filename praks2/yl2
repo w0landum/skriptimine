@@ -1,0 +1,3 @@
+#See skript on teine ülesanne. See väljastab skripti käivitanud kasutajale tervituse ja paigutab hüüumärgi eraldi reale.
+
+echo -e "Tere, $(whoami)\n!"
