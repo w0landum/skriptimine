@@ -1,5 +1,7 @@
 #See skript on esimene ülesanne. See väljastab kasutajanime tervituse ja paigutab hüüumärgi eraldi reale.
 
+#!/bin/sh
+
 kasutajanimi=w0land
 
 echo -e "Tere, $kasutajanimi\n!"
